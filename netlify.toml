@@ -1,0 +1,4 @@
+[build]
+  # Install dependencies before building; node_modules is not committed to the repo.
+  command = "npm install --no-audit --no-fund && npm run build"
+  publish = "dist"
